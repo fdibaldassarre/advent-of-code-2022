@@ -209,7 +209,7 @@ class Solver:
 
 if __name__ == "__main__":
     solver = Solver()
-    solver.parse("test")
+    solver.parse("input")
     solution1 = solver.solve1()
     print("Solution 1: %d" % solution1)
     solution2 = solver.solve2()
